@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Tahoma;
+  height: 5000px;
+  background-color: #333;
+}
+.up{
+    color: white;
+    background-color: coral;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bolder;
+    position: fixed;
+    right: 10px;
+    display: none;
+    bottom: 10px;
+    padding: 2px;
+    cursor: pointer;
+    transition: 1.5s;
+}
+.up.show{
+    display: block;
+}
